@@ -19,10 +19,12 @@ img{
 button{
     border:none;
     background-color:transparent;
+    cursor:pointer;
 }
 a{
     text-decoration:none;
     text-align:center;
+    cursor:pointer;
 }
 a.btn{
     background-color:var(--point-color);
