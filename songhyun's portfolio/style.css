@@ -1,0 +1,194 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins","Inter","Noto Sans KR", sans-serif; ;
+    color:#111;
+}
+ol,ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#111;
+}
+button{
+    border:none;
+    background-color:transparent;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding: 32px;
+    background:linear-gradient(#0003, #0000);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header h1{
+    font-family:"Inter";
+    font-size: 24px;
+    color:#111;
+    font-weight:800
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+header nav a{
+    font-size: 18px;
+    font-weight: 400;
+}
+header .btn-rnb,
+header .rnb-wrap{
+    display:none;
+}
+
+header .btn-rnb{
+    color: transparent;
+    font-size: 0.1px;
+    overflow: hidden;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    align-items: center;
+    padding: 64px 80px;
+}
+.sec-wrap{
+    width:100%;
+}
+#home{
+    background-image:url(images/bg_intro.png)
+}
+#home .big-title{
+    font-size: 150px;
+    color:#fff;
+    text-align: center;
+    font-weight:700;
+    text-shadow: 5px 6px 0px #A88ECC, 10px 10px 30px rgba(201, 149, 213,0.5);
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px){
+    header{
+        padding: 24px;
+        background:linear-gradient(#0003, #0000);
+    }
+    header h1{
+        font-size: 18px;
+    }
+     header nav{
+        display:none;
+    }
+    header .btn-rnb{
+        display:block;
+        width: 24px;
+        height: 24px;
+        background-color: transparent;
+        border: none;
+        position:relative;
+    }
+    
+    header .btn-rnb:before,
+    header .btn-rnb:after{
+        content:'';
+        display:block;
+        height: 2px;
+        width: 20px;
+        background-color:#111;
+        position:absolute;
+    }
+    header .btn-rnb:before{
+        transform:  translate(2px, -6px);
+    }
+    header .btn-rnb:after{
+        transform:  translate(2px, 4px);
+    }
+    
+    header .btn-rnb.open:before{
+        transform: rotate(45deg) translate(1px, -14px);
+    }
+    header .btn-rnb.open:after{
+        transform: rotate(-45deg) translate(14px, 1px);
+    }
+
+    header .rnb-wrap{
+        position:fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fffa;
+        backdrop-filter: blur(10px);
+    }
+    
+    header .rnb-wrap > div{
+        width: 100%;
+        height:100%;
+        display:flex;
+        position: relative;
+        padding: 16px;
+    }
+     header .rnb-wrap .btn-rnb-close{
+         width: 24px;
+         height: 24px;
+         position:absolute;
+         right:24px;
+         top: 24px;
+         color: transparent;
+         font-size: 0.1px;
+         overflow: hidden;
+         transform: rotate(45deg);
+     }
+
+     header .rnb-wrap .btn-rnb-close:before,
+     header .rnb-wrap .btn-rnb-close:after{
+         content:'';
+         display:block;
+         width: 24px;
+         height: 2px;
+         background-color:#000;
+         position: relative;
+     }
+     header .rnb-wrap .btn-rnb-close:before{
+         top:50%;
+         left:50%;
+         transform: translate(-12px, -11px);
+    }
+     header .rnb-wrap .btn-rnb-close:after{
+         top:50%;
+         left:50%;
+         transform: rotate(90deg) translate(-13px, 12px);
+    }
+
+    
+     header .rnb-wrap .menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+     header .rnb-wrap .menu a{
+    font-size: 24px;
+}
+    section{
+        width:100%;
+        overflow:hidden;
+        padding: 64px 24px;
+    }
+       #home .big-title{
+        font-size: 56px;
+        text-shadow: 3px 3px 0px #A88ECC, 10px 10px 30px rgba(201, 149, 213,0.5);
+    }
+}

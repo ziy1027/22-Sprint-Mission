@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  line-height:1.5;
+}
+
+body {
+  font-family: Poppins, 'Noto Sans KR', sans-serif;
+  margin: 0;
+  position:relative;
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 24px;
+    margin: 42px auto 32px;
+}
+.header{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    padding: 12px 40px;
+}
+.header .logo{
+    font-size: 20px;
+    font-weight:700;
+    color:#fff;
+}
+.secWrap{
+    max-width: 720px;
+    width: 100%;
+    margin:auto;
+    padding: 74px 0;
+}
+.conTop{
+    background-image:url(bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size:cover;
+    padding-top:124px;
+    padding-bottom: 280px;
+}
+
+.conTop .secWrap{
+    padding: 0;
+}
+.conTop h1{
+    font-size: 56px;
+    font-weight: 700;
+    color:#fff;
+    margin-bottom:14px;
+}
+.conTop p.topTxtB{
+    font-size: 20px;
+    font-weight: 500;
+    color: #8287a4;
+    margin-bottom:12px;
+}
+.conTop p.topTxtS{
+    font-size: 14px;
+    font-weight: 400;
+    color:#8287a4;
+}
+
+.secWrap h2{
+    font-size: 36px;
+    font-weight: 700;
+    color:#161346;
+}
+.secWrap p{
+    font-size: 16px;
+    font-weight: 500;
+    color:#4c497b;
+}
+.secWrap a{
+    display: block;
+    width: fit-content;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight:700;
+    color:#fff;
+    background-color:#413c91;
+    border-radius: 8px;;
+    margin: 32px auto 0;
+    text-decoration: none;;
+}
+
+.conChainify{
+    background-color:#f1f4fa;
+}
+
+.conFoot{
+    padding: 40px 0 32px;
+    background-color:#161346;
+    text-align:center;
+    color:#fff;
+}
+.conFoot .footWrap{
+    max-width: 720px;
+    margin: auto;
+}
+.footService{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom:8px;
+}
+.footTxt{
+    font-size: 16px;
+    font-weight: 400;
+    color:#8287a4;
+    margin-bottom:32px;
+}
+.footBtn{
+    color:#fff;
+    text-decoration:none;
+    font-size: 16px;
+    font-weight:700;
+    background-color:#413c91;
+    border-radius: 9999px;
+    padding: 16px 32px;
+    display:block;
+    width:fit-content;
+    margin: 0 auto 40px;
+}
+.footCopy{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d9d9d9;
+    padding-top: 32px;
+}

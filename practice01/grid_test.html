@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0; margin:0px; box-sizing:border-box;}
+        body{
+            padding: 32px;
+        }
+        .wrap{
+            display:grid;
+            gap:12px;
+            height:500px;
+            margin-bottom: 32px;
+            border: 1px solid #aaa;
+            padding: 12px;
+        }
+        .box{border-radius: 8px;}
+        .box1{background-color:tomato;}
+        .box2{background-color:aquamarine;}
+        .box3{background-color:silver;}
+        .box4{background-color:cornflowerblue}
+        .box5{background-color:yellowgreen}
+        .box6{background-color:slateblue}
+        .box7{background-color:plum}
+        .box8{background-color:darkkhaki;}
+
+        .wrap1{
+            grid-template: 50px 100px 30px 100px / 100px 50px 100px 70px
+        }
+        .wrap2{
+            max-width: 500px;
+            grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+        }
+        .wrap3{
+            width: 100%;
+            /* min-width: 500px; */
+            height:500px;
+            grid-template: 1fr 1fr 1fr / minmax(100px,200px) minmax(100px,300px) minmax(100px,300px) ;
+        }
+        .wrap4{
+            width: 100%;
+            grid-template: 1fr 1fr 1fr / minmax(200px, 2fr) minmax(200px, 1fr) minmax(200px, 1fr) ;
+        }
+        .wrap5{
+            width: 100%;
+            grid-template: 1fr 1fr 1fr / repeat(3, 50px 100px);
+        }
+        .wrap6{
+            width: 100%;
+            grid-template-columns: repeat(3, minmax(200px, 1fr));
+            grid-template-rows: 150px 200px 50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>기본 Grid template</h2>
+    <div class="wrap wrap1">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+    </div>
+    <p>zz</p>
+    <hr>
+    <h2>fr</h2>
+    <div class="wrap wrap2">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+    </div>
+    <hr>
+    <h2>minmax(최소값, 최대값)</h2>
+    <div class="wrap wrap3">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+    </div>
+    <hr>
+    <h2>minmax(최소값, fr)</h2>
+    <div class="wrap wrap4">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+    </div>
+    <hr>
+    <h2>repeat</h2>
+    <div class="wrap wrap5">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+    </div>
+    <hr>
+    <h2>repeat2</h2>
+    <div class="wrap wrap6">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+    </div>
+</body>
+</html>

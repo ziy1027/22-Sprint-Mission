@@ -1,0 +1,546 @@
+self.__BUILD_MANIFEST = {
+  "/": [
+    "static/chunks/0c5b5dddf835da84.js"
+  ],
+  "/OAuth_loading/[provider]": [
+    "static/chunks/24d012f2c7f5a3fd.js"
+  ],
+  "/_error": [
+    "static/chunks/1e2ec9fec00b49b7.js"
+  ],
+  "/articles/[slug]": [
+    "static/chunks/eed69b96f2c03d82.js"
+  ],
+  "/business/[bizCode]/access": [
+    "static/chunks/f06818cadc2af40a.js"
+  ],
+  "/certificates/[code]": [
+    "static/chunks/94cd8d9d765bd2f8.js"
+  ],
+  "/challenges": [
+    "static/chunks/b7a6c677742477cc.js"
+  ],
+  "/changepassword": [
+    "static/chunks/731513945b10618a.js"
+  ],
+  "/code-review/[s_id]": [
+    "static/chunks/a543d6cdf9314641.js"
+  ],
+  "/coding-camp/11": [
+    "static/chunks/e3529a8a61858315.js"
+  ],
+  "/coding-camp/[code]": [
+    "static/chunks/bf4bdfdc755f70cd.js"
+  ],
+  "/coding-camp/[code]/register": [
+    "static/chunks/7995e61c1895c157.js"
+  ],
+  "/coding-camp/certification/[code]": [
+    "static/chunks/b8cdab3489548e01.js"
+  ],
+  "/community/general": [
+    "static/chunks/f76bed580a674d79.js"
+  ],
+  "/community/general/[typed_id]": [
+    "static/chunks/ec064404e2fad140.js"
+  ],
+  "/community/general/[typed_id]/edit": [
+    "static/chunks/76dfb39b6232a638.js"
+  ],
+  "/community/general/write": [
+    "static/chunks/88915579d7e76e60.js"
+  ],
+  "/community/notice": [
+    "static/chunks/5cba3383d0c92b91.js"
+  ],
+  "/community/notice/[typed_id]": [
+    "static/chunks/b7d8cef5a399dc31.js"
+  ],
+  "/community/questions": [
+    "static/chunks/1bd713d177a0cb2c.js"
+  ],
+  "/community/questions/[typedId]": [
+    "static/chunks/fa0e99f58056db24.js"
+  ],
+  "/community/questions/[typedId]/edit": [
+    "static/chunks/dfb8862e3a2c1cb0.js"
+  ],
+  "/community/questions/threads/[seq_id]": [
+    "static/chunks/1fa646c767889683.js"
+  ],
+  "/community/questions/write": [
+    "static/chunks/171e0df16717750c.js"
+  ],
+  "/community/revisions/[id]": [
+    "static/chunks/44113b2cef092f83.js"
+  ],
+  "/costudy/join/[code]": [
+    "static/chunks/feac4a59b4b6d56d.js"
+  ],
+  "/costudy/result/[typedId]": [
+    "static/chunks/f414c013f287f8d6.js"
+  ],
+  "/coupons/apply": [
+    "static/chunks/35866e0605017bdf.js"
+  ],
+  "/coupons/campaign/[campaignName]": [
+    "static/chunks/cd90ca41b3c17736.js"
+  ],
+  "/coupons/redeem/[code]": [
+    "static/chunks/6ca419d080817353.js"
+  ],
+  "/custom/ngv-bigdata/signin": [
+    "static/chunks/52b21f7a62e96f32.js"
+  ],
+  "/custom/ngv/[contentCategorySlug]": [
+    "static/chunks/1404adab3fe70679.js"
+  ],
+  "/custom/ngv/hdat": [
+    "static/chunks/e9bf2d64d81f224f.js"
+  ],
+  "/custom/ngv/intro": [
+    "static/chunks/010064f4b3739502.js"
+  ],
+  "/custom/ngv/signin": [
+    "static/chunks/9574605989e5a83e.js"
+  ],
+  "/dashboard": [
+    "static/chunks/4ed143e1de012b93.js"
+  ],
+  "/dashboard/bookmarks": [
+    "static/chunks/58a414e448653c4c.js"
+  ],
+  "/dashboard/notices/[typedId]": [
+    "static/chunks/bef17b0593c49897.js"
+  ],
+  "/dashboard/playlists": [
+    "static/chunks/19ec90d7df16f406.js"
+  ],
+  "/dashboard/playlists/[playlist_id]": [
+    "static/chunks/d04b9d9fb696e03b.js"
+  ],
+  "/evaluation-checklist/[typedId]": [
+    "static/chunks/cff2b79f3983deb9.js"
+  ],
+  "/event/transfer-discount": [
+    "static/chunks/de9dd17b73a5be8a.js"
+  ],
+  "/exams/[examStepTypedId]/attempts/[examAttemptTypedId]": [
+    "static/chunks/567f2db3e5f87ecf.js"
+  ],
+  "/exams/[examStepTypedId]/attempts/ongoing": [
+    "static/chunks/46b0ebfccbdd200e.js"
+  ],
+  "/exams/[examStepTypedId]/overview": [
+    "static/chunks/557d9176ee2f52ab.js"
+  ],
+  "/explore": [
+    "static/chunks/ce654f1bc7eeea53.js"
+  ],
+  "/explore/category": [
+    "static/chunks/85a1fa0a5a236fa7.js"
+  ],
+  "/explore/roadmap": [
+    "static/chunks/8745a7c585f3512a.js"
+  ],
+  "/faq": [
+    "static/chunks/19dbde9aa89f84f5.js"
+  ],
+  "/interviews/[typedId]": [
+    "static/chunks/8916722bd4630ac0.js"
+  ],
+  "/kdc/certificates/[code]": [
+    "static/chunks/d6cb0bc04e3e4411.js"
+  ],
+  "/kdc/enrollments/[enrollment_typed_id]": [
+    "static/chunks/37e9a7e1dc4ecedc.js"
+  ],
+  "/kdc/enrollments/[enrollment_typed_id]/certificate": [
+    "static/chunks/17d325077ada8657.js"
+  ],
+  "/kdc/signup/success": [
+    "static/chunks/e7bffea38a9506c3.js"
+  ],
+  "/kdt-attendance": [
+    "static/chunks/d2be0a84431c93c3.js"
+  ],
+  "/kdt-attendance/t2": [
+    "static/chunks/61af9cec12058717.js"
+  ],
+  "/kdt-grade": [
+    "static/chunks/b6781f70310145a4.js"
+  ],
+  "/kdt/anomalies/attendance-certificate": [
+    "static/chunks/478056f25c3e0041.js"
+  ],
+  "/kdt/anomalies/attendance-certificate/[typedId]": [
+    "static/chunks/b4c0985ba9d95433.js"
+  ],
+  "/kdt/anomalies/attendance-certificate/request": [
+    "static/chunks/f9f2522187efffe0.js"
+  ],
+  "/kdt/anomalies/etc-absence": [
+    "static/chunks/681aac17802418d7.js"
+  ],
+  "/kdt/anomalies/etc-absence/[typedId]": [
+    "static/chunks/6d8b44179e2ce55d.js"
+  ],
+  "/kdt/anomalies/etc-absence/register": [
+    "static/chunks/536c9c836c3c6b0b.js"
+  ],
+  "/kdt/anomalies/mid-transfer": [
+    "static/chunks/bb14a1ed0ae1e08d.js"
+  ],
+  "/kdt/anomalies/mid-transfer/register": [
+    "static/chunks/7c827e923d9a5c08.js"
+  ],
+  "/kdt/anomalies/official-leave": [
+    "static/chunks/8f98855e92df2e95.js"
+  ],
+  "/kdt/anomalies/official-leave/[typedId]": [
+    "static/chunks/9be91635bf312e6c.js"
+  ],
+  "/kdt/anomalies/official-leave/register": [
+    "static/chunks/d6e41a82cf6ad873.js"
+  ],
+  "/kdt/anomalies/stay-abroad": [
+    "static/chunks/a782d3952b4d77c4.js"
+  ],
+  "/kdt/anomalies/stay-abroad/[typedId]": [
+    "static/chunks/398423e813b82e9e.js"
+  ],
+  "/kdt/anomalies/stay-abroad/register": [
+    "static/chunks/71c5bfbdb45f5aba.js"
+  ],
+  "/kdt/anomalies/working-hours": [
+    "static/chunks/ab0b9a35a1c3f287.js"
+  ],
+  "/kdt/anomalies/working-hours/[typedId]": [
+    "static/chunks/ef768516d50d0914.js"
+  ],
+  "/kdt/anomalies/working-hours/register": [
+    "static/chunks/16927c97cf00c264.js"
+  ],
+  "/kdt/unit-period": [
+    "static/chunks/3bce67a8b324d679.js"
+  ],
+  "/kdt/user-survey/[kdtUserSurveyTypedId]": [
+    "static/chunks/b34cf0779dcdd0ac.js"
+  ],
+  "/learn/[l_id]": [
+    "static/chunks/05618e24e779210d.js"
+  ],
+  "/me/account": [
+    "static/chunks/8babc702ea27692d.js"
+  ],
+  "/me/account/cancellation": [
+    "static/chunks/9a236d903c857169.js"
+  ],
+  "/me/community": [
+    "static/chunks/d3d2c5f8ade75425.js"
+  ],
+  "/meetings/[id]": [
+    "static/chunks/181f41c8721cfc38.js"
+  ],
+  "/onboarding/recommend": [
+    "static/chunks/145f0397bbf3897a.js"
+  ],
+  "/paths/[path_slug]": [
+    "static/chunks/419140d5a44a6938.js"
+  ],
+  "/paths/[path_slug]/playlist": [
+    "static/chunks/c31f2336545d9e47.js"
+  ],
+  "/paths/career/[path_slug]": [
+    "static/chunks/07427898ebb466aa.js"
+  ],
+  "/paths/skill/[path_slug]": [
+    "static/chunks/e2f1762d8fe9f4cc.js"
+  ],
+  "/projects/[id]": [
+    "static/chunks/54901f6035198bb7.js"
+  ],
+  "/promotion/[slug]": [
+    "static/chunks/1cf4649146529ab0.js"
+  ],
+  "/reviews": [
+    "static/chunks/0685f4e3afc60dc2.js"
+  ],
+  "/roadmap/frontend-2023": [
+    "static/chunks/c28ddaa07b15e64c.js"
+  ],
+  "/roadmaps": [
+    "static/chunks/83f655d4192cb253.js"
+  ],
+  "/search": [
+    "static/chunks/78fc0fce7ae6db6b.js"
+  ],
+  "/server-sitemap.xml": [
+    "static/chunks/013b6bac51fc6ffe.js"
+  ],
+  "/signin": [
+    "static/chunks/7e21ddfa59d89903.js"
+  ],
+  "/signup": [
+    "static/chunks/b97a70d32aca7347.js"
+  ],
+  "/sprint/evaluation/[typedId]": [
+    "static/chunks/07ae8be985f18245.js"
+  ],
+  "/sprint/project/[typedId]": [
+    "static/chunks/a59b143ed9a253cb.js"
+  ],
+  "/sprint/weekly-mission/[typedId]": [
+    "static/chunks/becc25a94a63761a.js"
+  ],
+  "/study-group/[typedId]": [
+    "static/chunks/d536b8807c3bbc3e.js"
+  ],
+  "/subscription": [
+    "static/chunks/55b99b5a31d3c48f.js"
+  ],
+  "/subscription/payment": [
+    "static/chunks/0ce336beb4f8f4ef.js"
+  ],
+  "/subscription/team": [
+    "static/chunks/3d9eb71c79bf7b32.js"
+  ],
+  "/team-study/[team_study_id]": [
+    "static/chunks/7bd6dc6f9d4b9dc6.js"
+  ],
+  "/terms/[category]": [
+    "static/chunks/815af758af0a5949.js"
+  ],
+  "/topics/[t_slug]": [
+    "static/chunks/18de154cd2ae6d71.js"
+  ],
+  "/topics/[t_slug]/edit": [
+    "static/chunks/8e466b1bdc267bf9.js"
+  ],
+  "/topics/[t_slug]/lessons/[l_id]": [
+    "static/chunks/1b1ddf36525ac483.js"
+  ],
+  "/topics/[t_slug]/lessons/[l_id]/kds-verify": [
+    "static/chunks/751f0ebf4eb372b8.js"
+  ],
+  "/topics/[t_slug]/preview": [
+    "static/chunks/ec924e2f89739f33.js"
+  ],
+  "/tutorials/[t_seqId]": [
+    "static/chunks/81765962ef271d7a.js"
+  ],
+  "/tutorials/[t_seqId]/[t_slug]": [
+    "static/chunks/f4276f6f1bc4977e.js"
+  ],
+  "/tutorials/[t_seqId]/[t_slug]/edit": [
+    "static/chunks/02449dca90c82d0b.js"
+  ],
+  "/tutorials/new": [
+    "static/chunks/cdaaeec8e909490d.js"
+  ],
+  "/user-works/[typedId]": [
+    "static/chunks/d202277e5e991cc2.js"
+  ],
+  "/users/[userId]/badge": [
+    "static/chunks/4034904432d309b7.js"
+  ],
+  "/users/[userId]/profile": [
+    "static/chunks/faedc46fedf04117.js"
+  ],
+  "/users/[userId]/til": [
+    "static/chunks/c96f6b52d0c8a8c6.js"
+  ],
+  "/users/[userId]/til/[date]": [
+    "static/chunks/2a9e17d31219928b.js"
+  ],
+  "/users/become": [
+    "static/chunks/06ceefb1a454fded.js"
+  ],
+  "/users/become/[value]": [
+    "static/chunks/bcd398a5e2da0f3c.js"
+  ],
+  "/verify-email": [
+    "static/chunks/9cb5742caa471160.js"
+  ],
+  "/verify-email/success/[verificationEmailId]": [
+    "static/chunks/bb68467619e1aa2d.js"
+  ],
+  "/verify-nice/success": [
+    "static/chunks/aa7fc70a3588761d.js"
+  ],
+  "/welcome": [
+    "static/chunks/f6f33ae8c9bb7114.js"
+  ],
+  "/welcome/teamInvitation": [
+    "static/chunks/a866fe2b0c00a275.js"
+  ],
+  "/welcome/teamInvitation/expired": [
+    "static/chunks/08b34d30eabd9cd5.js"
+  ],
+  "__rewrites": {
+    "afterFiles": [
+      {
+        "source": "/teams/:teamCode/access",
+        "destination": "/teams/:teamCode/access"
+      },
+      {
+        "source": "/teams/:path*"
+      },
+      {
+        "source": "/teams-admin/:path*"
+      },
+      {
+        "source": "/codeit-super-admin/:path*"
+      }
+    ],
+    "beforeFiles": [
+      {
+        "source": "/_main/production/_next/:path+",
+        "destination": "/_next/:path+"
+      }
+    ],
+    "fallback": []
+  },
+  "sortedPages": [
+    "/",
+    "/OAuth_loading/[provider]",
+    "/_app",
+    "/_error",
+    "/api/getABTestVariant",
+    "/api/getIsBecomeUser",
+    "/api/graphql",
+    "/api/logout",
+    "/api/rest/uploads/image",
+    "/api/rest/uploads/image/profile",
+    "/api/rest/[...paths]",
+    "/api/setAmplitudeCookies",
+    "/api/setDeviceId",
+    "/api/version",
+    "/api/weather",
+    "/articles/[slug]",
+    "/business/[bizCode]/access",
+    "/certificates/[code]",
+    "/challenges",
+    "/changepassword",
+    "/code-review/[s_id]",
+    "/coding-camp/11",
+    "/coding-camp/certification/[code]",
+    "/coding-camp/[code]",
+    "/coding-camp/[code]/register",
+    "/community/general",
+    "/community/general/write",
+    "/community/general/[typed_id]",
+    "/community/general/[typed_id]/edit",
+    "/community/notice",
+    "/community/notice/[typed_id]",
+    "/community/questions",
+    "/community/questions/threads/[seq_id]",
+    "/community/questions/write",
+    "/community/questions/[typedId]",
+    "/community/questions/[typedId]/edit",
+    "/community/revisions/[id]",
+    "/costudy/join/[code]",
+    "/costudy/result/[typedId]",
+    "/coupons/apply",
+    "/coupons/campaign/[campaignName]",
+    "/coupons/redeem/[code]",
+    "/custom/ngv/hdat",
+    "/custom/ngv/intro",
+    "/custom/ngv/signin",
+    "/custom/ngv/[contentCategorySlug]",
+    "/custom/ngv-bigdata/signin",
+    "/dashboard",
+    "/dashboard/bookmarks",
+    "/dashboard/notices/[typedId]",
+    "/dashboard/playlists",
+    "/dashboard/playlists/[playlist_id]",
+    "/evaluation-checklist/[typedId]",
+    "/event/transfer-discount",
+    "/exams/[examStepTypedId]/attempts/ongoing",
+    "/exams/[examStepTypedId]/attempts/[examAttemptTypedId]",
+    "/exams/[examStepTypedId]/overview",
+    "/explore",
+    "/explore/category",
+    "/explore/roadmap",
+    "/faq",
+    "/interviews/[typedId]",
+    "/kdc/certificates/[code]",
+    "/kdc/enrollments/[enrollment_typed_id]",
+    "/kdc/enrollments/[enrollment_typed_id]/certificate",
+    "/kdc/signup/success",
+    "/kdt/anomalies/attendance-certificate",
+    "/kdt/anomalies/attendance-certificate/request",
+    "/kdt/anomalies/attendance-certificate/[typedId]",
+    "/kdt/anomalies/etc-absence",
+    "/kdt/anomalies/etc-absence/register",
+    "/kdt/anomalies/etc-absence/[typedId]",
+    "/kdt/anomalies/mid-transfer",
+    "/kdt/anomalies/mid-transfer/register",
+    "/kdt/anomalies/official-leave",
+    "/kdt/anomalies/official-leave/register",
+    "/kdt/anomalies/official-leave/[typedId]",
+    "/kdt/anomalies/stay-abroad",
+    "/kdt/anomalies/stay-abroad/register",
+    "/kdt/anomalies/stay-abroad/[typedId]",
+    "/kdt/anomalies/working-hours",
+    "/kdt/anomalies/working-hours/register",
+    "/kdt/anomalies/working-hours/[typedId]",
+    "/kdt/unit-period",
+    "/kdt/user-survey/[kdtUserSurveyTypedId]",
+    "/kdt-attendance",
+    "/kdt-attendance/t2",
+    "/kdt-grade",
+    "/learn/[l_id]",
+    "/me/account",
+    "/me/account/cancellation",
+    "/me/community",
+    "/meetings/[id]",
+    "/onboarding/recommend",
+    "/paths/career/[path_slug]",
+    "/paths/skill/[path_slug]",
+    "/paths/[path_slug]",
+    "/paths/[path_slug]/playlist",
+    "/projects/[id]",
+    "/promotion/[slug]",
+    "/reviews",
+    "/roadmap/frontend-2023",
+    "/roadmaps",
+    "/search",
+    "/server-sitemap.xml",
+    "/signin",
+    "/signup",
+    "/sprint/evaluation/[typedId]",
+    "/sprint/project/[typedId]",
+    "/sprint/weekly-mission/[typedId]",
+    "/study-group/[typedId]",
+    "/subscription",
+    "/subscription/payment",
+    "/subscription/team",
+    "/team-study/[team_study_id]",
+    "/terms/[category]",
+    "/topics/[t_slug]",
+    "/topics/[t_slug]/edit",
+    "/topics/[t_slug]/lessons/[l_id]",
+    "/topics/[t_slug]/lessons/[l_id]/kds-verify",
+    "/topics/[t_slug]/preview",
+    "/tutorials/new",
+    "/tutorials/[t_seqId]",
+    "/tutorials/[t_seqId]/[t_slug]",
+    "/tutorials/[t_seqId]/[t_slug]/edit",
+    "/user-works/[typedId]",
+    "/users/become",
+    "/users/become/[value]",
+    "/users/[userId]/badge",
+    "/users/[userId]/profile",
+    "/users/[userId]/til",
+    "/users/[userId]/til/[date]",
+    "/verify-email",
+    "/verify-email/success/[verificationEmailId]",
+    "/verify-nice/success",
+    "/welcome",
+    "/welcome/teamInvitation",
+    "/welcome/teamInvitation/expired"
+  ]
+};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="e509a97b-8177-5723-9eb6-d8e5e80df02e")}catch(e){}}();
+//# debugId=e509a97b-8177-5723-9eb6-d8e5e80df02e
