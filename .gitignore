@@ -1,0 +1,11 @@
+#Visual Studio related files
+.vs/
+[Dd]ebug/
+[Rr]elease/
+*.obj
+*.exe
+*.dll
+
+#OS generated files
+.DS_Store
+Thums.db
