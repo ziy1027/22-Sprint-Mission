@@ -57,8 +57,16 @@ header .header-wrap{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    border-bottom: 1px solid #EF0;
 }
 
+header .header-wrap h1{
+    height: 51px;
+}
+
+header .header-wrap h1 img{
+    height:100%;
+}
 header .header-wrap .btn-login{
     padding: 12px 42px;
     border-radius: 8px;
@@ -321,10 +329,6 @@ footer {
 
     .hero .con-wrap .txt-wrap br{
         display:none;
-    }
-  
-    section{
-        /* padding: 0 32px; */
     }
     section > div,
     section > div:nth-child(2){
