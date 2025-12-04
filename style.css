@@ -1,0 +1,363 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Pretendard';
+}
+
+:root{
+    --big-txt-size: 40px;
+    --point-color:#3692FF;
+    --font-color:#374151;
+}
+
+img{
+    display: block;
+    object-fit: contain;
+    width: 100%;
+}
+button{
+    border:none;
+    background-color:transparent;
+    cursor:pointer;
+}
+a{
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+}
+a.btn{
+    background-color:var(--point-color);
+    transition:0.3s;
+}
+a.btn:hover{
+    background-color:#1967D6
+}
+
+a.btn:active{
+    background-color:#1251AA;
+}
+a.btn.deact{
+    background-color:#9CA3AF;
+}
+ul,ol,li{
+    list-style:none;
+}
+header{
+    position:sticky;
+    top:0;
+    left:0;
+    right:0;
+    background-color: #fff;
+}
+header .header-wrap{
+    max-width: 1200px;
+    padding: 9px 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+header .header-wrap .btn-login{
+    padding: 12px 42px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight:600;
+    color:#fff;
+    display: block;
+}
+
+/* main */
+.con-wrap,
+.footer-wrap{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.hero,
+.bottom-banner{
+    background-color:#CFE5FF;
+}
+.hero .con-wrap,
+.bottom-banner .con-wrap{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.big-txt,
+.title {
+    font-size: var(--big-txt-size);
+    font-weight: 700;
+}
+
+.hero {
+    padding-top: 200px;
+    overflow: hidden;
+}
+
+.hero .con-wrap .txt-wrap{
+    display:flex;
+    flex-direction:column;
+    gap: 32px;
+    flex-basis: 357px;
+    flex-shrink: 0;
+}
+.hero .con-wrap .txt-wrap .btn-viewmore{
+    border-radius: 9999px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 13px 0;
+    max-width: 357px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.hero .con-wrap img{
+    flex-shrink: 1;
+}
+
+section > div{
+    max-width: 998px;
+    margin: 128px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 64px;
+}
+
+
+section > div .img-wrap{flex-shrink: 2;}
+section > div .txt-wrap{
+    flex-shrink: 0;
+}
+section > div .txt-wrap p.cate{
+    color: var(--point-color);
+    font-family: 'Abhaya Libre';
+    font-weight :800;
+    font-size: 18px;
+}
+section > div .txt-wrap p.title{
+    margin-bottom: 16px;
+}
+section > div .txt-wrap p.descripsion{
+    color: var(--font-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+section > div:nth-child(2){
+    flex-direction: row-reverse;
+}
+section > div:nth-child(2) .txt-wrap{
+    text-align:right;
+}
+.bottom-banner .con-wrap{
+    padding-top: 143px;
+}
+.bottom-banner .con-wrap .txt-wrap{
+    margin-top: 112px;
+    min-width: 320px;
+    color:#374151;
+}
+
+
+footer {
+    background: #111827;
+    height: 160px;
+}
+.footer-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 40px;
+}
+
+.footer-wrap p.copy{
+    color: #9CA3AF;
+    font-size:  16px;
+    font-weight:  400;
+}
+
+.footer-wrap ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+.footer-wrap ul.foot-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.footer-wrap ul.foot-menu li a{
+    display: block;
+    color: #fff;
+    font-size:  16px;
+    font-weight: 400;
+}
+
+
+@media (max-width: 1024px){
+        
+    header .header-wrap{
+        padding: 10px 24px;
+    }
+    
+    header .header-wrap .btn-login{
+        padding: 12px 42px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight:600;
+        color:#fff;
+    }
+    
+    /* main */
+    .hero,
+    .bottom-banner{
+        padding: 0;
+    }
+    .hero .con-wrap,
+    .bottom-banner .con-wrap{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .hero .con-wrap{
+        margin-top: 84px;
+        width: 100%;
+        gap: 120px;
+    }
+   
+    .hero .con-wrap .txt-wrap{
+        gap: 24px;
+        flex-basis: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    section > div,
+    section > div:nth-child(2){
+        margin: 120px auto;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 24px;
+        padding: 0 32px;
+    }
+    
+    section > div .txt-wrap p.title{
+        margin-bottom: 24px;
+        font-size: 24px;
+    }
+    section > div .txt-wrap p.title br{
+        display:none;
+    }
+    section > div .txt-wrap p.descripsion{
+        font-size: 18px;
+    }
+
+    section > div:nth-child(2) .txt-wrap{
+        text-align:right;
+    }
+    .bottom-banner .con-wrap{
+        padding-top: 200px;
+        gap: 200px;
+    }
+    .bottom-banner .con-wrap .txt-wrap{
+        margin-top: 112px;
+        min-width: 320px;
+        text-align:center;
+    }
+    
+}
+@media (max-width: 767px){
+    :root{
+        --big-txt-size: 32px;
+    }
+     header .header-wrap h1{
+         overflow:hidden;
+     }
+    
+     header .header-wrap h1 img{
+         position:relative;
+         height: 51px;
+         left: -49px;
+     }
+     header .header-wrap{
+        padding: 10px 24px;
+    }
+    
+    header .header-wrap .btn-login{
+        padding: 12px 42px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight:600;
+        color:#fff;
+    }
+    
+    /* main */
+    .hero,
+    .bottom-banner{
+        padding: 0;
+    }
+
+
+    .hero .con-wrap{
+        margin-top: 48px;
+        gap: 120px;
+        padding:  0;
+    }
+    .hero .con-wrap .txt-wrap{
+        max-width: 260px;
+    }
+
+    .hero .con-wrap .txt-wrap br{
+        display:none;
+    }
+  
+    section{
+        /* padding: 0 32px; */
+    }
+    section > div,
+    section > div:nth-child(2){
+        margin: 64px auto;
+        gap: 24px;
+    }
+   
+    section > div .txt-wrap p.title{
+        margin-bottom: 6px;
+        font-size: 24px;
+    }
+    section > div .txt-wrap p.descripsion{
+        font-size: 16px;
+    }
+  
+    .bottom-banner .con-wrap{
+        padding: 100px 0 0;
+        gap: 200px;
+    }
+    .bottom-banner .con-wrap .txt-wrap{
+        margin-top: 0;
+    }
+    
+    .footer-wrap{
+        padding: 32px 16px 48px;
+        position:relative;
+    }
+    
+    .footer-wrap p.copy{
+        position:absolute;
+        left:16px;
+        rigth:16px;
+        bottom: 0;
+        
+    }
+}
