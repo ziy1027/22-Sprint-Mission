@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 로그 파일 제외
 logs/
 *.log
@@ -12,6 +12,4 @@ logs/
 .env
 config/local.json
 
-=======
->>>>>>> free
 .vs/
