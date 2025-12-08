@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>판다마켓 로그인</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    판다마켓 로그인
+    <header>
+        <div class="header-wrap">
+            <h1 class="logo"><a href="/"><img src="images/logo.svg" alt="판다마켓 로고"></a></h1>
+            <div class="user-menu"><a class="btn btn-login" href="login.html">로그인</a></div>
+        </div>
+    </header>
+    <main class="login-page user-page">
+        <div class="page-wrap">
+            <div class="logo"><a href="/"><img src="images/logo.svg" alt="판다마켓 로고"></a></div>
+            <form action="">
+                <div>
+                    <label for="login-email">이메일</label>
+                    <input type="email" id="login-email" placeholder="이메일을 입력해주세요.">
+                </div>
+                <div>
+                    <label for="login-password">비밀번호</label>
+                    <div class="password-wrap">
+                        <input type="password" id="login-password" placeholder="비밀번호를 입력해주세요.">
+                    </div>
+                </div>
+                <input type="button" value="로그인"/>
+            </form>
+            <div class="for-new-user noti-box">
+                <p>판다마켓이 처음이신가요? <a href="signup.html">회원가입</a></p>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
