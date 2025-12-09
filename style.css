@@ -1,8 +1,16 @@
+@font-face {
+	font-family: 'Pretendard Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: url('./woff2/PretendardVariable.woff2') format('woff2-variations');
+}
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Pretendard';
+    font-family: 'Pretendard Variable';
 }
 
 :root{
@@ -105,6 +113,8 @@ header .header-wrap .btn-login{
 .title {
     font-size: var(--big-txt-size);
     font-weight: 700;
+    color: #374151;
+    line-height: 140%;
 }
 
 .hero {
@@ -134,6 +144,9 @@ header .header-wrap .btn-login{
     flex-shrink: 1;
 }
 
+section{
+	background-color:#fff;
+}
 section > div{
     max-width: 998px;
     margin: 128px auto;
@@ -141,6 +154,8 @@ section > div{
     flex-direction: row;
     align-items: center;
     gap: 64px;
+    background: #FCFCFC;
+	border-radius:12px;
 }
 
 
@@ -153,6 +168,7 @@ section > div .txt-wrap p.cate{
     font-family: 'Abhaya Libre';
     font-weight :800;
     font-size: 18px;
+    margin-bottom: 12px;
 }
 section > div .txt-wrap p.title{
     margin-bottom: 16px;
@@ -220,7 +236,7 @@ footer {
 .login-page,.signin-page{
     display: flex;
     justify-content: center;
-    margin: 180px 0;
+    margin: 90px 0;
 }
 
 .user-page .page-wrap{
@@ -302,7 +318,44 @@ footer {
     color:#fff;
     cursor: pointer;
 }
+.user-page .page-wrap form > input[type='button']:disabled {
+	background-color:#9CA3AF;
+	cursor:default;
+}
 
+.user-page .page-wrap .easy-login-wrap{
+	display:flex;
+	gap:16px;
+	background-color:#E6F2FF;
+	border-radius: 8px;
+	padding: 16px 24px;
+	flex-direction: row;
+	align-items: center;
+}
+.user-page .page-wrap .easy-login-wrap p{
+	flex:1;
+	font-size: 16px;
+	font-weight:500;
+	color:#1f2937;
+}
+.user-page .page-wrap .easy-login-wrap a.btn-sns{
+	display:block;
+	width: 42px;
+	height:42px;
+	border-radius:50%;
+	font-size: 0.1px;
+	text-indent: -999em;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.user-page .page-wrap .easy-login-wrap a.btn-sns-google{
+	background-color:#fff;
+	background-image:url(images/ic_google.svg);
+}
+.user-page .page-wrap .easy-login-wrap a.btn-sns-kakao{
+	background-color:#F5E14B;
+	background-image:url(images/ic_kakao.svg);
+}
 .user-page .page-wrap .noti-box{
     text-align: center;
 }
@@ -319,16 +372,14 @@ footer {
     text-decoration: underline;;
 }
 
-
-
-@media (max-width: 1024px){
+@media (max-width: 1199px){
         
     header .header-wrap{
         padding: 10px 24px;
     }
     
     header .header-wrap .btn-login{
-        padding: 12px 42px;
+        padding: 14.5px 42px;
         border-radius: 8px;
         font-size: 16px;
         font-weight:600;
@@ -359,6 +410,12 @@ footer {
         text-align: center;
         align-items: center;
     }
+    .hero .con-wrap .txt-wrap .big-txt br{
+        display:none;
+    }
+	section{
+		backgroun-color:#fcfcfc;
+	}
     section > div,
     section > div:nth-child(2){
         margin: 120px auto;
@@ -367,7 +424,11 @@ footer {
         gap: 24px;
         padding: 0 32px;
     }
-    
+    section > div .txt-wrap p.cate{
+		margin-bottom:16px;
+		font-family: 'Pretendard Variable';
+		font-weight: 700;
+	}
     section > div .txt-wrap p.title{
         margin-bottom: 24px;
         font-size: 24px;
@@ -377,6 +438,7 @@ footer {
     }
     section > div .txt-wrap p.descripsion{
         font-size: 18px;
+        line-height: 26px;
     }
 
     section > div:nth-child(2) .txt-wrap{
@@ -385,15 +447,20 @@ footer {
     .bottom-banner .con-wrap{
         padding-top: 200px;
         gap: 200px;
+        padding-left: 0;
+        padding-right: 0;
     }
+	.bottom-banner .con-wrap .img-wrap{
+		width:100%;
+	}
     .bottom-banner .con-wrap .txt-wrap{
         margin-top: 112px;
         min-width: 320px;
         text-align:center;
     }
-    
+
 }
-@media (max-width: 767px){
+@media (max-width: 767px) {
     :root{
         --big-txt-size: 32px;
     }
@@ -407,11 +474,11 @@ footer {
          left: -49px;
      }
      header .header-wrap{
-        padding: 10px 24px;
+        padding: 9px 16px;
     }
     
     header .header-wrap .btn-login{
-        padding: 12px 42px;
+        padding: 14.5px 43.3px;
         border-radius: 8px;
         font-size: 16px;
         font-weight:600;
@@ -430,25 +497,38 @@ footer {
         gap: 120px;
         padding:  0;
     }
+	
     .hero .con-wrap .txt-wrap{
         max-width: 260px;
     }
-
+    .hero .con-wrap .txt-wrap .btn-viewmore{
+        font-size: 18px;
+        padding:  12px;
+        max-width: 240px;
+    }
     .hero .con-wrap .txt-wrap br{
         display:none;
     }
+	.hero .con-wrap .img-wrap{
+		width: 448px;
+	}
     section > div,
     section > div:nth-child(2){
         margin: 64px auto;
         gap: 24px;
+        padding: 0 16px;
     }
-   
+   section > div .txt-wrap p.cate{
+	   margin-bottom: 8px;
+   }
     section > div .txt-wrap p.title{
-        margin-bottom: 6px;
+        margin-bottom: 16px;
         font-size: 24px;
     }
     section > div .txt-wrap p.descripsion{
-        font-size: 16px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 140%;
     }
   
     .bottom-banner .con-wrap{
@@ -479,11 +559,12 @@ footer {
     }
 
     .user-page .page-wrap{
-        padding: 0 32px;
+        padding: 0 16px;
+        max-width: 432px;
     }
 
     .user-page .page-wrap .logo img{
-        height: 80px;
+        height: 66px;
     }
 
     .user-page .page-wrap form> div label{
