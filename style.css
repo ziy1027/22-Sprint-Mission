@@ -1,16 +1,10 @@
 /* 마지막 수정 날짜 : 25.12.09 */
-@font-face {
-	font-family: 'Pretendard Variable';
-	font-weight: 45 920;
-	font-style: normal;
-	font-display: swap;
-	src: url('./woff2/PretendardVariable.woff2') format('woff2-variations');
-}
 
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    box-sizing: border-box;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
 :root{
@@ -310,7 +304,7 @@ footer {
 
 .user-page .page-wrap form> input[type='button']{
     border:none;
-    background-color:#3692FF;
+    background-color:var(--point-color);;
     border-radius: 40px;
     height:56px;
     padding: 12px;
@@ -368,7 +362,7 @@ footer {
 
 
 .user-page .page-wrap .noti-box p a{
-    color:#3692FF;
+    color:var(--point-color);;
     text-decoration: underline;;
 }
 
