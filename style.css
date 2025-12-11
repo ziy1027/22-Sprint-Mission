@@ -51,15 +51,15 @@ header{
     left:0;
     right:0;
     background-color: #fff;
+    border-bottom: 1px solid #eee;
 }
 header .header-wrap{
-    max-width: 1200px;
+    max-width: 1520px;
     padding: 9px 40px;
     margin: 0 auto;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    border-bottom: 1px solid #eee;
 }
 
 header .header-wrap h1{
