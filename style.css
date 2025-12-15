@@ -1,8 +1,7 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
-    font-family: 'Pretendard';
+    box-sizing: border-box;font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
 :root{
@@ -26,11 +25,13 @@ a{
     text-align:center;
     cursor:pointer;
 }
-a.btn{
+a.btn,
+.user-page .page-wrap form> input[type='button']{
     background-color:var(--point-color);
     transition:0.3s;
 }
-a.btn:hover{
+a.btn:hover,
+.user-page .page-wrap form> input[type='button']:hover{
     background-color:#1967D6
 }
 
@@ -49,9 +50,10 @@ header{
     left:0;
     right:0;
     background-color: #fff;
+    border-bottom: 1px solid #eee;
 }
 header .header-wrap{
-    max-width: 1200px;
+    max-width: 1520px;
     padding: 9px 40px;
     margin: 0 auto;
     display: flex;
@@ -59,6 +61,13 @@ header .header-wrap{
     align-items: center;
 }
 
+header .header-wrap h1{
+    height: 51px;
+}
+
+header .header-wrap h1 img{
+    height:100%;
+}
 header .header-wrap .btn-login{
     padding: 12px 42px;
     border-radius: 8px;
@@ -205,6 +214,111 @@ footer {
     font-weight: 400;
 }
 
+/* 로그인/회원가입 폼 */
+
+.login-page,.signin-page{
+    display: flex;
+    justify-content: center;
+    margin: 180px 0;
+}
+
+.user-page .page-wrap{
+    max-width: 688px;
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+    width:100%;
+    padding: 0 24px;
+}
+
+.user-page .page-wrap .logo img{
+    height: 132px;
+}
+.user-page .page-wrap form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width:100%;
+}
+
+.user-page .page-wrap form> div{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.user-page .page-wrap form> div label{
+    font-size: 18px;
+    font-weight: 700;
+    color:#1f1827;
+}
+.user-page .page-wrap form> div input[type='email'],
+.user-page .page-wrap form> div input[type='password']{
+    border:none;
+    background-color:#F3F4F6;
+    border-radius: 12px;
+    height:56px;
+    padding: 12px 24px;
+    font-size: 16px;
+    color:#1f2937;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.user-page .page-wrap form> div input[type='password']{
+    padding-right: 48px;
+}
+
+.user-page .page-wrap form .password-wrap{
+    position:relative;
+    cursor: pointer;
+}
+.user-page .page-wrap form .password-wrap:after{
+    content:'';
+    display: block;
+    width: 24px;
+    height:24px;
+    background-image:url(images/ic_password_view.svg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100%;
+    opacity: 0.7;
+    position:absolute;
+    right: 16px;
+    top: 50%;
+    margin-top: -12px;
+    z-index: 10;
+}
+
+.user-page .page-wrap form> input[type='button']{
+    border:none;
+    background-color:#3692FF;
+    border-radius: 40px;
+    height:56px;
+    padding: 12px;
+    font-size: 16px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.user-page .page-wrap .noti-box{
+    text-align: center;
+}
+
+.user-page .page-wrap .noti-box p{
+    font-size: 14px;
+    color:#1f1837;
+    font-weight:500;
+}
+
+
+.user-page .page-wrap .noti-box p a{
+    color:#3692FF;
+    text-decoration: underline;;
+}
+
+
 
 @media (max-width: 1024px){
         
@@ -322,10 +436,6 @@ footer {
     .hero .con-wrap .txt-wrap br{
         display:none;
     }
-  
-    section{
-        /* padding: 0 32px; */
-    }
     section > div,
     section > div:nth-child(2){
         margin: 64px auto;
@@ -360,4 +470,23 @@ footer {
         bottom: 0;
         
     }
+
+    /* 로그인/회원가입 폼 */
+
+    .login-page,.signin-page{
+        margin: 64px 0 128px;
+    }
+
+    .user-page .page-wrap{
+        padding: 0 32px;
+    }
+
+    .user-page .page-wrap .logo img{
+        height: 80px;
+    }
+
+    .user-page .page-wrap form> div label{
+        font-size: 16px;
+    }
+    
 }
