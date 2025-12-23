@@ -36,14 +36,17 @@
                 <div>
                     <label for="login-email">이메일</label>
                     <input type="email" id="login-email" placeholder="이메일을 입력해주세요.">
+                    <p class="noti"></p>
                 </div>
                 <div>
                     <label for="login-password">비밀번호</label>
                     <div class="password-wrap">
                         <input type="password" id="login-password" placeholder="비밀번호를 입력해주세요.">
+                        <button type="button" class="password-toggle"></button>
                     </div>
+                    <p class="noti"></p>
                 </div>
-                <input type="button" value="로그인" disabled/>
+                <input id="btn-login" onclick="location.href='items.html'" type="button" value="로그인" disabled/>
             </form>
             <div class="easy-login-wrap">
                 <p>간편 로그인하기</p>
@@ -55,5 +58,6 @@
             </div>
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
